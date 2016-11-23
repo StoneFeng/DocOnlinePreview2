@@ -5,28 +5,11 @@
     <welcome-file>documentUpload.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-  	<servlet-name>DocUploadConvertServlet</servlet-name>
-  	<servlet-class>com.pdfPreview.servlet.DocUploadConvertServlet</servlet-class>
+    <servlet-name>DocUploadConvertServlet</servlet-name>
+    <servlet-class>com.dop.servlet.DocUploadConvertServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>DocUploadConvertServlet</servlet-name>
-  	<url-pattern>/upload.do</url-pattern>
+    <servlet-name>DocUploadConvertServlet</servlet-name>
+    <url-pattern>/upload.do</url-pattern>
   </servlet-mapping>
-  <!-- <servlet>
-  	<servlet-name>myServlet</servlet-name>
-  	<servlet-class>com.headfirst.servlet.MyServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>myServlet</servlet-name>
-  	<url-pattern>/testServletThreadSafe.do</url-pattern>
-  </servlet-mapping>
-  <session-config>
-  	<session-timeout>20</session-timeout>
-  </session-config>
-  <listener>
-  	<listener-class>com.headfirst.servlet.listener.MyServletContextListener</listener-class>
-  </listener>
-  <listener>
-  	<listener-class>com.headfirst.servlet.listener.MyHttpSessionListener</listener-class>
-  </listener> -->
 </web-app>

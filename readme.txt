@@ -1,7 +1,6 @@
-1.安装OpenOffice 4.1.3
-2.启动OpenOffice服务
-cd D:\OpenOffice 4\program
+如何使用这个demo ?
+1.安装OpenOffice
+2.进入{OpenOffice_Home}/program并使用如下命令行来启动OpenOffice服务
 soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" -nofirststartwizard
---2.安装swftools-2013-04-09-1007
---3.安装PDF2JSON v0.68
-4.启动应用
+3.将该应用部署到tomcat容器中并启动tomcat
+4.访问http://localhost:8080/DocOnlinePreview2
